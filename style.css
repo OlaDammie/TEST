@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #ffffff;
+}
+
+.body {
+  background-color: #1A1A1A;
+}
+
+header {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+li {
+  padding-left: 30px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #545353;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #f1ae0e;
+}
+
+.HERO {
+  width:auto;
+  min-height:200px;
+}
+
+.hero-container {
+  width: 100%;
+ min-height: auto; 
+
+}
+
+
+
+.home {
+  padding: 15px 25px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+
+  background: transparent;
+
+}
+
+.home:hover {
+  color: #f1ae0e;
+}
+
+.herO {
+  height: 127vh;
+  width: 100%;
+  background-image: url(./images/food-hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 9rem;
+}
+
+.hero-main {
+  width:fit-content;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid blue;
+  padding-left: 40px;
+}
+
+.percent-holder {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: #99e54d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percent {
+  height: fit-content;
+  width: 200px;
+}
+
+.percent-num {
+  text-align: center;
+  color: #000000;
+}
+
+.percent-number {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6.3rem;
+  font-weight: 700;
+}
+
+.percent-text {
+  text-align: center;
+}
+
+.percent-para {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+
+.new-text {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.ingredient-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1.1;
+
+}
+
+.freepik-para {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.free {
+  color: #99e54d;
+  cursor: pointer;
+}
+
+.read {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  background-color: #f1ae0e;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 16px 46px 17px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.read:hover {
+  background-color: #f8d279;
+  color: #1A1A1A;
+}
+
+.PICTURE-1 {
+  width:auto;
+  min-height:500px;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-1-container {
+  width:100%;
+  height:fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid red;
+}
+
+.cous,
+.salad,
+.pasta {
+  width: 340px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.cous {
+  background-image: url(./images/food-hero-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cous-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+}
+
+.salad {
+  background-image: url(./images/pexels-photo-01.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.pasta {
+  background-image: url(./images/italian-spaghetti-with-tomato-sauce-pan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.BEEF {
+  width: 100%;
+  height:800px;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beef-container {
+  width: 80%;
+ min-height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.beef-text-holder,
+.beef-image {
+  width: 49%;
+  height:450px;
+}
+
+.beef-text-holder{
+  gap: 20px 0px;
+}
+.beef-text {
+min-height:450px;
+display:grid;
+}
+
+.beef-number {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+}
+
+.beef-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.beef-lor {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  line-height: 28px;
+  text-align: left;
+}
+
+.beef-para {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+}
+
+.beef-free {
+  color: #f1ae0e;
+  cursor: pointer;
+}
+
+.beef-image {
+  background-image: url(./images/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.PICTURE-2 {
+  width:100%;
+  height:500px;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-2-container{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid red;
+}
+.cous-0,
+.salad-0,
+.pasta-0 {
+  width: 28%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.cous-0 {
+  background-image: url(./images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.salad-0 {
+  background-image: url(./images/pexels-photo-3662126.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pasta-0 {
+  background-image: url(./images/pexels-photo-3939685.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CROISSANT {
+  width:auto;
+  min-height: 800px;
+  background-color: #1A1A1A;
+}
+
+.croissant-container {
+  width: 80%;
+  height: 80vh;
+  margin-left: 11rem;
+  display: flex;
+  gap: 40px;
+}
+
+.croissant-image,
+.croissant-text-holder {
+  width: 40%;
+  height: 100%;
+}
+
+.croissant-image {
+  background-image: url(./images/pexels-photo-02.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.croissant-text-holder {
+  display: flex;
+  align-items: end;
+}
+
+.MENU {
+  width: 100%;
+  height: 260vh;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  width: 88%;
+  height: 250vh;
+border: 1px solid ;
+}
+
+.view {
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+}
+
+.view-header {
+  font-size: 4.7rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.view-para {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.menu-images {
+  width: 100%;
+  height: fit-content;
+  display:contents;
+  justify-content: center;
+  border: 1px solid blue;
+
+}
+
+.menu-1,
+.menu-2,
+.menu-3,
+.menu-4 {
+  width: 80%;
+  height: 117.5vh;
+  text-align: center;
+}
+
+.menu-1-image {
+  width: 90%;
+  height: 90vh;
+  margin: 25px 25px 20px 30px;
+  border-radius: 40px;
+  background-image: url(./images/delicious-pizza-isolated-white.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-1-btn{
+  display: block;
+  border: 1px solid yellow;
+}
+.menu-btn {
+  color: #000000;
+  border: none;
+  background-color: #6fc914;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: #99e54d;
+}
+
+.menu-2-image {
+  width: 90%;
+  height: 90vh;
+  margin: 25px 25px 20px 30px;
+  border-radius: 40px;
+  background-image: url(./images/high-angle-shot-vegetable-salad-white-bowl.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-3-image {
+  width: 90%;
+  height: 90vh;
+  margin: 25px 25px 20px 30px;
+  border-radius: 40px;
+  background-image: url(./images/pexels-photo-02.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-4-image {
+  width: 90%;
+  height: 90vh;
+  margin: 25px 25px 20px 30px;
+  border-radius: 40px;
+  background-image: url(./images/pexels-photo-juice.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.salad-image {
+  background-image: url(./images/fresh-salad-with-turkey-eggs-vegetables.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.KEEP {
+  width: 100%;
+  height: 120vh;
+  background-color: #1A1A1A;
+  background-image: url(./images/vegetables-set-left-black-slate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.keep-container {
+  width: 60%;
+  height: 85%;
+  padding: 10rem 0rem 0rem 11rem;
+
+}
+
+.date-container {
+  margin-top: 12rem;
+}
+
+.keep-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.2rem;
+}
+
+.keep-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+
+.keep-btn {
+  margin-top: 20px;
+  display: flex;
+}
+
+.empty-btn {
+  padding: 25px 250px;
+  border-radius: 20px;
+  border: none;
+  inset: 20px 10px 0px 0px;
+}
+
+.submit-btn {
+  padding: 5px 30px;
+  border: none;
+  background-color:#99e54d;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.submit-btn:hover{
+  background-color:#afeb74;
+}
+.CONTACT {
+  background-color: #1A1A1A;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+
+.chat,
+.office,
+.phone {
+  width: 35%;
+  height: 100%;
+}
+
+.chat-icon-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.chat-icon-holder{
+  border-radius: 50%;
+  border: none;
+  background-color: #99e54d;
+  width: 67px;
+  height: 67px;
+}
+.chat-icon{
+  width: 50px;
+  height: 50px;
+  margin:9px ;
+}
+
+.chat-text-area{
+  text-align: center;
+  padding: 25px;
+}
+.chat-header{
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+
+.chat-text{
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.chat-link{
+  font-size: 1.7rem;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 600;
+  color: #f1ae0e;
+  line-height: 35px;
+}
